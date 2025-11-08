@@ -4,7 +4,7 @@
     padding: 0; 
 } 
 .header { 
-    padding: 28px 50px; 
+    padding: 28px 50px;
 } 
  .nav {
     display: flex;
@@ -19,13 +19,13 @@
 .left-style {   
     color: #040062; 
     font-size: 24px; 
-    font-family: 'Poppins'; 
-    font-weight: bold; 
+    font-family: 'Poppins';
+    font-weight: bold;  
 }  
  .ul-between { 
     margin-left: 50px;
     margin-right: 600px;
-    display: flex;           /* выстраиваем li в ряд внутри каждого ul */
+    display: flex;          
     gap: 32px;   
  }
 .between-style {  
