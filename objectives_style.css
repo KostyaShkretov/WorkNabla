@@ -1,0 +1,44 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ 
+ body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #FEF1EF 50%, white 50%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.main__div {
+    max-width: 1000px;  
+    margin: 20px auto;     
+    padding: 5%; 
+    display: flex ;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 35%;
+} 
+.img {          
+  clip-path: inset(2% 0 2% 0);        
+  border-radius: 35% / 9%; 
+  overflow: hidden; 
+
+}
+.sec__right__div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.sec__right__h1{
+    color: #040062;
+    font-size: 40px;
+}
+.sec__right__p {
+    color: #6D758D;
+    font-size: 18px;
+    font-family: 'Ubuntu' sans-serif;
+    max-width: none; 
+    margin-right: -35%; 
+     
+} 
